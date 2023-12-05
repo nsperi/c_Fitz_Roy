@@ -1,0 +1,21 @@
+/* footer.css */
+
+footer {
+    position: relative;
+    background-image: url('../../../public/Data/Images/wave.png');
+    background-size: cover; /* Ajusta según sea necesario */
+    background-position: center; /* Ajusta según sea necesario */
+    color: white; /* Color del texto */
+    padding: 50px 0; /* Espaciado interno del pie de página */
+    text-align: center;
+  }
+  
+  .text-container {
+    position: relative;
+    z-index: 1; /* Asegura que el texto esté sobre la imagen */
+  }
+  
+  .text-container p {
+    margin: 10px 0; /* Espaciado entre párrafos */
+  }
+  

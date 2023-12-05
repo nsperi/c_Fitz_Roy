@@ -1,0 +1,38 @@
+.title{
+    margin-left: 1.8em;
+    margin-top: 1em;
+    font-weight:bold;
+  }
+
+.propuesta .subtitle{
+    text-align: center;
+}
+
+.propuesta .key{
+    margin-left: 4.3em;
+}
+
+.propuesta .card-container{
+    display: flex;
+}
+
+.propuesta .card-container .card {
+    width: 100em;
+    height: auto;
+    align-items: center;
+    margin: 2em;
+    border-radius: 2em;
+    background-color: rgba(67, 67, 67, 0.151);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.propuesta .card-container .card p{
+    padding: 1.5em;
+    text-align: center;
+}
+
+.propuesta .card-container .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+

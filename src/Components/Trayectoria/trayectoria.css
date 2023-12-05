@@ -1,0 +1,19 @@
+.title{
+    margin-left: 1.8em;
+    margin-top: 1em;
+    font-weight:bold;
+  }
+
+.timeline {
+    margin-left: 4em;
+    margin-right: 4em;
+}
+
+.pictures{
+  display: flex;
+  justify-content: center;
+}
+
+.pictures img{
+  padding: 1em;
+}

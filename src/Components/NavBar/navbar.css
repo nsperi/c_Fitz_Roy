@@ -1,0 +1,17 @@
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.navbar-nav .nav-link {
+    margin-top: 1.2em;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+
+nav .container{
+    margin: 0px;
+    padding: 0px;
+    margin-left: 50px;
+}
