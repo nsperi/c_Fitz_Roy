@@ -1,21 +1,72 @@
 /* footer.css */
 
 footer {
-    position: relative;
-    background-image: url('../../../public/Data/Images/wave.png');
-    background-size: cover; /* Ajusta según sea necesario */
-    background-position: center; /* Ajusta según sea necesario */
-    color: white; /* Color del texto */
-    padding: 50px 0; /* Espaciado interno del pie de página */
-    text-align: center;
-  }
+    
+  position: relative;
+  background-color: #f8f9fa;
+  background-repeat: no-repeat;
+  background-size: cover; /* Ajusta según sea necesario */
+  background-position: center; /* Ajusta según sea necesario */
+  color: rgb(0, 0, 0); /* Color del texto */
+  padding: 10px 0; /* Espaciado interno del pie de página */
+  text-align: center;
+  min-height: 100px; /* Ajusta la altura según tus necesidades */
+}
+
   
-  .text-container {
-    position: relative;
-    z-index: 1; /* Asegura que el texto esté sobre la imagen */
+  .text-container{
+    display: block;
+    justify-items: center;
   }
-  
   .text-container p {
-    margin: 10px 0; /* Espaciado entre párrafos */
+    color: rgb(0, 0, 0);
+    margin: 0;
   }
+
+  .text-container .text-info {
+    margin: 1px 0;
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  .footer-container {  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr auto;
+    grid-auto-columns: 1fr;
+    gap: 5px 5px;
+    grid-auto-flow: row dense;
+    justify-content: stretch;
+    align-items: center;
+    grid-template-areas: "map info contact"
+    "placeholder placeholder placeholder"; 
+    width: 100%;
+    height: 100%;
+    color: rgb(0, 0, 0);
+  }
+
+  .placeholder {
+    visibility: hidden;
+  }
+
+  .mapouter {
+    position: relative;
+    text-align: right;
+    height: 200px;
+    width: 300px;
+    margin: 50px;
+  }
+  
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 100%;
+    width: 100%;
+  }
+  
+  
+  .map { grid-area: map;  }
+  
+  .info { grid-area: info;}
+  
+  .contact { grid-area: contact; }
   
