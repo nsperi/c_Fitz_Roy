@@ -19,13 +19,13 @@ const TopBar = () => {
                         <a className= 'bar-link' href="http://www.instagram.com/fitzroyconstructora"><FontAwesomeIcon icon={faInstagram} size='lg' style={{color: "#2074e8",}} /></a>
                     </li>
                     <li className='bar-item'>
-                        <a className= 'bar-link' href="mailto:info@fitzroyconstructora.com"><FontAwesomeIcon icon={faEnvelope} size='lg' style={{color: "#2074e8",}} /> info@fitzroyconstructora.com</a>
+                        <a className= 'bar-link' href="mailto:info@fitzroyconstructora.com"><FontAwesomeIcon icon={faEnvelope} size='lg' style={{color: "#2074e8",}} /><span>info@fitzroyconstructora.com</span> </a>
                     </li>
                     <li className='bar-item'>
-                        <a className= 'bar-link' href="#"><FontAwesomeIcon icon={faLocationDot} size='lg' style={{color: "#2074e8",}} /> Av. Independencia 331 1piso of 1</a>
+                        <a className= 'bar-link' href="#"><FontAwesomeIcon icon={faLocationDot} size='lg' style={{color: "#2074e8",}} /> <span>Av. Independencia 331 1piso of 1</span></a>
                     </li>
                     <li className='bar-item'>
-                        <a className= 'bar-link' href="tel:+5492974096772"><FontAwesomeIcon icon={faWhatsapp} size='lg' style={{color: "#2074e8",}} /> +549 297 409 6772</a>
+                        <a className= 'bar-link' href="tel:+5492974096772"><FontAwesomeIcon icon={faWhatsapp} size='lg' style={{color: "#2074e8",}} /> <span>+549 297 409 6772</span> </a>
                     </li>
                 </ul>
             </div>

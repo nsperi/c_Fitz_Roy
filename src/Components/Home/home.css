@@ -52,3 +52,52 @@
   
   .text { grid-area: text; }
   
+  @media only screen and (max-width: 1000px) {
+    .container{
+      display: block;
+      margin: 0px;
+    }
+    .b{
+      display: block;
+      margin: 30px;
+      align-items: center;
+    }
+    .image img {
+      display: none;
+    }
+    .container{
+      display: block;
+      align-self: center;
+    }
+    .title img{
+      margin: 0px;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .container{
+      display: block;
+      margin: 0px;
+    }
+    .b{
+      display: block;
+      margin: 30px;
+      align-items: center;
+      width: 40%;
+    }
+    .image img {
+      display: none;
+    }
+    .container{
+      display: block;
+      align-self: center;
+    }
+    .title img{
+      margin: 0px;
+      width: 10em;
+      height: auto;
+    }
+    .text h1{
+      font-size: 1.5em;
+    }
+  }
